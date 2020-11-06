@@ -21,7 +21,7 @@ body{
         display: grid;
         grid-template-columns: 1fr 3fr;
         margin-top: 40%;
-        margin-left: 6rem;
+        margin-left: 5rem;
         // transform: scale(1.5);
 
         h1{
@@ -45,8 +45,12 @@ body{
             }
 
             #weatherIcon{
-                height: 50px;
-                width: 50px;
+                // position: fixed;
+                // right: 50%;
+                margin-left: 1rem;
+                margin-bottom: 1rem;
+                height: 75px;
+                width: 75px;
                 background: url(./asset/Cloudy.svg);
                 background-repeat: no-repeat;
                 background-size: 80%;
