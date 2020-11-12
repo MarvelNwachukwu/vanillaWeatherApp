@@ -32,7 +32,7 @@
         e.preventDefault()
 
         if (inputValue) {
-          fetch(`http://api.openweathermap.org/data/2.5/weather?q=${inputValue}&appid=44815469f60369df76644d4289a578de&units=metric`)
+          fetch(`https://api.openweathermap.org/data/2.5/weather?q=${inputValue}&appid=44815469f60369df76644d4289a578de&units=metric`)
             .then(res => {
               return res.json()
             })
